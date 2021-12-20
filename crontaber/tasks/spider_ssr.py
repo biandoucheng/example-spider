@@ -5,6 +5,7 @@ from cmder.factory.base import BaseCommand
 class spider_ssr:
     """
     爬虫，服务端渲染html练习
+    获取电影列表
     """
     def __init__(self):
         #线程锁
