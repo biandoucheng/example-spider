@@ -127,9 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-#cache
-*.pyc
-
-#保留.ignore
-!.gitignore
+.git
+.idea
