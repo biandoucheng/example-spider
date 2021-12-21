@@ -239,3 +239,11 @@ class spider_webdriver:
             while more_page:
                 self.__analysis_page_content()
                 more_page = self.__range_page()
+
+
+
+def run():
+    """
+    任务调度入口
+    """
+    spider_webdriver().range_51_jobs()
