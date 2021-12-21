@@ -10,6 +10,9 @@ class spider_webdriver:
     """
     爬虫，浏览器驱动练习，解决js无法反解析的情况，在接口中及html文档中发现不了数据的情况
     爬取51Job工作信息
+    运行该爬虫需要下载安装chrome浏览器及chromedriver
+    chromedriver 需要根据你的chrome版本选择正确的安装版本
+    chromedriver 地址:http://npm.taobao.org/mirrors/chromedriver/
     """
     def __init__(self):
         #浏览器驱动
